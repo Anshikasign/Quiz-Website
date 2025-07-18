@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Genre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="genre-page">
+  <div class="genre-container">
+    <h1>Select a Quiz Genre</h1>
+    <button onclick="selectGenre('computerscience')">Computer Science</button>
+    <button onclick="selectGenre('math')">Math</button>
+    <button onclick="selectGenre('science')">Science</button>
+    <button onclick="selectGenre('gk')">General Knowledge</button>
+  </div>
+
+<script>
+  function selectGenre(genre) {
+  localStorage.setItem("selectedGenre", genre);
+  window.location.href = "quiz.html";
+}
+</script>
+
+</body>
+</html>

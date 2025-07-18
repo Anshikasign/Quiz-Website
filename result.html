@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container center">
+    <h2>Your Score</h2>
+    <p id="scoreDisplay"></p>
+    <a href="quiz.html" class="btn">Play Again</a>
+    <a href="index.html" class="btn">Home</a>
+  </div>
+  <script>
+    const score = localStorage.getItem("score") || 0;
+    document.getElementById("scoreDisplay").innerText = `You scored ${score}/5`;
+  </script>
+</body>
+</html>
