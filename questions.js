@@ -1,29 +1,19 @@
 export const genreQuestions = {
   computerscience: [
     {
-      question: "Who is the father of  modern computer science?",
-      options: ["Charles Babbage", "Alan Turing", "John Bardeen", "Carl David Anderson"],
-      answer: 1
+      question: "Who is the father of  modern computer science?",options: ["Charles Babbage", "Alan Turing", "John Bardeen", "Carl David Anderson"],answer: 1
     },
     {
-      question: "Which language runs in a web browser?",
-      options: ["Java", "C", "Python", "JavaScript"],
-      answer: 3
+      question: "Which language runs in a web browser?",options: ["Java", "C", "Python", "JavaScript"],answer: 3
     },
     {
-      question: "What does CSS stand for?",
-      options: ["Central Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
-      answer: 1
+      question: "What does CSS stand for?",options: ["Central Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],answer: 1
     },
     {
-      question: "What year was JavaScript created?",
-      options: ["1995", "2000", "1999", "2005"],
-      answer: 0
+      question: "What year was JavaScript created?",options: ["1995", "2000", "1999", "2005"],answer: 0
     },
     {
-      question: "Which tag is used for inserting an image?",
-      options: ["<img>", "<image>", "<src>", "<pic>"],
-      answer: 0
+      question: "Which tag is used for inserting an image?",options: ["<img>", "<image>", "<src>", "<pic>"],answer: 0
     }],
   math: [
     { question: "5 + 7 = ?", options: ["10", "12", "11", "13"], answer: 1 },
